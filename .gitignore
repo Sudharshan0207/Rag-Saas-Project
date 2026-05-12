@@ -1,0 +1,16 @@
+# Environments
+.env
+venv/
+node_modules/
+
+# Python / Backend
+__pycache__/
+*.pyc
+backend/app/data/*
+!backend/app/data/.gitkeep
+faiss.index
+chunks.pkl
+
+# Frontend
+dist/
+.DS_Store
