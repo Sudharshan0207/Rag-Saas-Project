@@ -85,6 +85,17 @@ AI Response
 
 ---
 
+#Run Frontend 
+
+```bash
+
+cd frontend
+
+npm install dev
+
+npm run dev 
+
+
 # Run Backend
 
 ```bash
@@ -93,3 +104,6 @@ cd backend
 pip install -r requirements.txt
 
 uvicorn app.main:app --reload
+
+
+
